@@ -14,3 +14,11 @@
     width: auto;
     height: 200px;
 }
+body {
+    background-color: rgb(74, 22, 122);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
