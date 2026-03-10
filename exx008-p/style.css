@@ -1,0 +1,69 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcf4cb;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: #fcf4cb;
+    text-align: center;
+    padding: 25px;
+
+}
+
+header h1{
+    margin: 0;
+    color: #333;
+}
+
+header p{
+    color: #555;
+}
+
+
+.imagem{
+    text-align: center;
+    margin: 30px;
+    width: 100%;
+}
+
+.imagem img{
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+.ingredientes, .preparo{
+    background-color: white;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+h2{
+    color: #ff9900;
+}
+
+
+ul, ol{
+    line-height: 1.8;
+}
+
+
+@media (max-width:600px){
+    .imagem img{
+        width: 90%;
+    }
+}
+.imagem img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    
+}
