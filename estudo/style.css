@@ -1,0 +1,12 @@
+body{
+    background: radial-gradient( circle, #ac0acc, #8a0d7f );
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.container {
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
