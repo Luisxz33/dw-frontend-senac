@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+
+<body>
+
+    <h1>TABUADA</h1>
+
+    <div class="caixa">
+
+        <!-- Controles: input + botão -->
+        <div class="controles">
+            <label for="numero">Número:</label>
+            <input type="number" id="numero" placeholder="" min="0" />
+            <button onclick="gerarTabuada()">Calcular</button>
+        </div>
+
+        
+        <p class="erro" id="erro"></p>
+
+        <!-- Resultado gerado pelo JavaScript -->
+        <div id="resultado">
+            <p class="vazio">Digite um número e clique em Calcular.</p>
+        </div>
+
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
